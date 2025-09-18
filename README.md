@@ -1,8 +1,10 @@
-Blog Website
 
+##Blog Website
+
+---
 This is a blog website built using Laravel, Vue.js, Inertia.js, and MySQL. It provides a platform for users to create, edit, and comment on blog posts. This project demonstrates the integration of modern JavaScript frameworks with a PHP backend and is designed with clean and intuitive user interfaces.
-
-Technologies Used
+---
+##Technologies Used
 
 Laravel: A powerful PHP framework used for handling backend logic, routing, database management, and API functionality.
 
@@ -11,8 +13,8 @@ Vue.js: A progressive JavaScript framework used for building the front-end of th
 Inertia.js: A framework for building modern single-page apps using classic server-side routing and controllers, simplifying the integration of Vue with Laravel.
 
 MySQL: A relational database management system used for storing data such as blog posts, comments, and user information.
-
-Features
+---
+##Features
 
 User Authentication: Users can register, login, and manage their account.
 
@@ -24,9 +26,9 @@ Pagination: Posts are paginated to ensure a smooth user experience when browsing
 
 Admin Features: Admin users have the ability to manage posts and comments.
 
-Installation
+##Installation
 Prerequisites
-
+---
 Before running the project, ensure you have the following installed:
 
 PHP (>= 7.4)
@@ -34,7 +36,7 @@ PHP (>= 7.4)
 Composer
 
 Node.js (>= 14.x)
-
+---
 MySQL or a compatible database system
 
 Steps to Set Up
