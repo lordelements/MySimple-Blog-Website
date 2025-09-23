@@ -60,10 +60,7 @@ class PostController extends Controller
         // Only an admin can get past this check
         $this->authorize('update', $post);
         $this->postService->updateFromRequest($request, $post);
-
-        return redirect()
-            ->route('posts.index')
-            ->with('success', 'Post updated successfully.');
+        return redirect()->route('posts.index')->with('success', 'Post updated.');
     }
 
     public function destroy(Post $post)

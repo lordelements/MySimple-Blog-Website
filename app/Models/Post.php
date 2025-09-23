@@ -9,7 +9,7 @@ use App\Models\Comment;
 
 class Post extends Model
 {
-    protected $fillable = ['title', 'content', 'user_id'];
+    protected $fillable = ['title', 'content', 'filename', 'user_id'];
 
     // Post belongs to one user (author)
     public function user()

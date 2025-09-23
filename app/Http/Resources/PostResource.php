@@ -4,6 +4,7 @@ namespace App\Http\Resources;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
+use Illuminate\Support\Facades\Storage;
 
 class PostResource extends JsonResource
 {
@@ -15,12 +16,14 @@ class PostResource extends JsonResource
     public function toArray(Request $request): array
     {
        return [
-            'id' => $this->id,
-            'title' => $this->title,
-            'content' => $this->content,
-            'created_at' => $this->created_at,
-            'user' => $this->whenLoaded('user'),
-            'comments' => CommentResource::collection($this->whenLoaded('comments')),
+            'id'        => $this->id,
+            'title'     => $this->title,
+            'content'   => $this->content,
+            'filename'  => $this->filename,
+            'file_url'  => $this->filename ? Storage::url('posts_uploads/' . $this->filename) : null,
+            'created_at'=> $this->created_at,
+            'user'      => $this->whenLoaded('user'),
+            'comments'  => CommentResource::collection($this->whenLoaded('comments')),
         ];
     }
 }
