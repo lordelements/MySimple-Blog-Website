@@ -5,8 +5,10 @@ namespace App\Services;
 use App\Models\Post;
 use Inertia\Inertia;
 use Illuminate\Http\Request;
+use App\Http\Resources\PostResource;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\RedirectResponse;
+use App\Http\Resources\CommentResource;
 use Illuminate\Support\Facades\Storage;
 
 class PostService
@@ -130,6 +132,12 @@ class PostService
             'post' => $post,
             'comments' => $post->comments,
         ]);
+
+        // return Inertia::render('Posts/Show', [
+        //     'post' => new PostResource($post),
+        //     'comments' => CommentResource::collection($post->comments),
+        // ]);
+
     }
 
 }

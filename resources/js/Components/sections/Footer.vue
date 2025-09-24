@@ -7,63 +7,62 @@
                 <div class="col-span-full mb-10 lg:col-span-2 lg:mb-0">
                     <!-- Logo -->
                     <div class="flex-shrink-0">
-                        <a href="/" class="text-xl font-bold text-indigo-600">DevBlog</a>
+                        <a href="#" class="text-xl font-bold text-indigo-600">DevBlog</a>
                     </div>
                     <p class="py-8 text-sm text-gray-500 lg:max-w-xs text-center lg:text-left">Trusted in more than 100
                         countries & 5 million customers. Have any query ?</p>
                     <a href="javascript:;"
-                        class="py-2.5 px-5 h-9 block w-fit bg-indigo-600 rounded-full shadow-sm text-xs text-white mx-auto transition-all  duration-500 hover:bg-indigo-700 lg:mx-0">
+                        class="py-2.5 px-5 h-9 block w-fit bg-indigo-600 rounded-full shadow-sm text-xs text-white mx-auto transition-all duration-500 hover:bg-indigo-700 lg:mx-0">
                         Contact us
                     </a>
                 </div>
                 <!--End Col-->
                 <div class="lg:mx-auto text-left ">
                     <h4 class="text-lg text-gray-900 font-medium mb-7">Blogs</h4>
-                    <ul class="text-sm  transition-all duration-500">
-                        <li class="mb-6"><a href="javascript:;" class="text-gray-600 hover:text-gray-900">Home</a></li>
-                        <li class="mb-6"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">About</a>
+                    <ul class="text-sm transition-all duration-500">
+                        <li class="mb-6"><a href="#" class="text-gray-600 hover:text-gray-900">Home</a></li>
+                        <li class="mb-6"><a href="#" class=" text-gray-600 hover:text-gray-900">About</a>
                         </li>
-                        <li class="mb-6"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Pricing</a>
+                        <li class="mb-6"><a href="#" class=" text-gray-600 hover:text-gray-900">Pricing</a>
                         </li>
-                        <li><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Features</a></li>
+                        <li><a href="#" class=" text-gray-600 hover:text-gray-900">Features</a></li>
                     </ul>
                 </div>
                 <!--End Col-->
                 <div class="lg:mx-auto text-left ">
                     <h4 class="text-lg text-gray-900 font-medium mb-7">Products</h4>
-                    <ul class="text-sm  transition-all duration-500">
-                        <li class="mb-6"><a href="javascript:;" class="text-gray-600 hover:text-gray-900">Figma UI
+                    <ul class="text-sm transition-all duration-500">
+                        <li class="mb-6"><a href="#" class="text-gray-600 hover:text-gray-900">Figma UI
                                 System</a></li>
-                        <li class="mb-6"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Icons
+                        <li class="mb-6"><a href="#" class=" text-gray-600 hover:text-gray-900">Icons
                                 Assets</a></li>
-                        <li class="mb-6"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Responsive
+                        <li class="mb-6"><a href="#" class=" text-gray-600 hover:text-gray-900">Responsive
                                 Blocks</a></li>
-                        <li><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Components Library</a>
+                        <li><a href="#" class=" text-gray-600 hover:text-gray-900">Components Library</a>
                         </li>
                     </ul>
                 </div>
                 <!--End Col-->
                 <div class="lg:mx-auto text-left">
                     <h4 class="text-lg text-gray-900 font-medium mb-7">Resources</h4>
-                    <ul class="text-sm  transition-all duration-500">
-                        <li class="mb-6"><a href="javascript:;" class="text-gray-600 hover:text-gray-900">FAQs</a></li>
-                        <li class="mb-6"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Quick
+                    <ul class="text-sm transition-all duration-500">
+                        <li class="mb-6"><a href="#" class="text-gray-600 hover:text-gray-900">FAQs</a></li>
+                        <li class="mb-6"><a href="#" class=" text-gray-600 hover:text-gray-900">Quick
                                 Start</a></li>
-                        <li class="mb-6"><a href="javascript:;"
-                                class=" text-gray-600 hover:text-gray-900">Documentation</a></li>
-                        <li><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">User Guide</a></li>
+                        <li class="mb-6"><a href="#" class=" text-gray-600 hover:text-gray-900">Documentation</a></li>
+                        <li><a href="#" class=" text-gray-600 hover:text-gray-900">User Guide</a></li>
                     </ul>
                 </div>
                 <!--End Col-->
                 <div class="lg:mx-auto text-left">
                     <h4 class="text-lg text-gray-900 font-medium mb-7">Blogs</h4>
-                    <ul class="text-sm  transition-all duration-500">
-                        <li class="mb-6"><a href="javascript:;" class="text-gray-600 hover:text-gray-900">News</a></li>
-                        <li class="mb-6"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Tips &
+                    <ul class="text-sm transition-all duration-500">
+                        <li class="mb-6"><a href="#" class="text-gray-600 hover:text-gray-900">News</a></li>
+                        <li class="mb-6"><a href="#" class=" text-gray-600 hover:text-gray-900">Tips &
                                 Tricks</a></li>
-                        <li class="mb-6"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">New
+                        <li class="mb-6"><a href="#" class=" text-gray-600 hover:text-gray-900">New
                                 Updates</a></li>
-                        <li><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Events</a></li>
+                        <li><a href="#" class=" text-gray-600 hover:text-gray-900">Events</a></li>
                     </ul>
                 </div>
             </div>
@@ -112,12 +111,10 @@
                                     d="M13.9346 1.13529C14.5684 1.30645 15.0665 1.80588 15.2349 2.43896C15.5413 3.58788 15.5413 5.98654 15.5413 5.98654C15.5413 5.98654 15.5413 8.3852 15.2349 9.53412C15.0642 10.1695 14.5661 10.669 13.9346 10.8378C12.7886 11.1449 8.19058 11.1449 8.19058 11.1449C8.19058 11.1449 3.59491 11.1449 2.44657 10.8378C1.81277 10.6666 1.31461 10.1672 1.14622 9.53412C0.839844 8.3852 0.839844 5.98654 0.839844 5.98654C0.839844 5.98654 0.839844 3.58788 1.14622 2.43896C1.31695 1.80353 1.81511 1.30411 2.44657 1.13529C3.59491 0.828125 8.19058 0.828125 8.19058 0.828125C8.19058 0.828125 12.7886 0.828125 13.9346 1.13529ZM10.541 5.98654L6.72178 8.19762V3.77545L10.541 5.98654Z"
                                     fill="currentColor" />
                             </svg>
-
                         </a>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-
 </template>

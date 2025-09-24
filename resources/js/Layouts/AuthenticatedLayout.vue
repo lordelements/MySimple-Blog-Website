@@ -7,6 +7,7 @@ import DropdownLink from '@/Components/DropdownLink.vue';
 import NavLink from '@/Components/NavLink.vue';
 import ResponsiveNavLink from '@/Components/ResponsiveNavLink.vue';
 import { Link } from '@inertiajs/vue3';
+import SuccessAlert from '@/Components/SuccessAlert.vue';
 
 const showingNavigationDropdown = ref(false);
 
@@ -175,7 +176,9 @@ const isAdmin = computed(() => {
             <!-- Page Content -->
             <main>
                 <slot />
+                <SuccessAlert />
             </main>
+           
         </div>
     </div>
 </template>
