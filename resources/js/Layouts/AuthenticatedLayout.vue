@@ -41,9 +41,6 @@ const isAdmin = computed(() => {
                                 <NavLink :href="route('dashboard')" :active="route().current('dashboard')">
                                     Dashboard
                                 </NavLink>
-                                <NavLink :href="route('posts.index')" :active="route().current('posts.index')">
-                                    Posts
-                                </NavLink>
                                 <NavLink :href="route('/Aboutus')" :active="route().current('/Aboutus')">
                                     About us
                                 </NavLink>
@@ -124,9 +121,6 @@ const isAdmin = computed(() => {
                     <div class="space-y-1 pb-3 pt-2">
                         <ResponsiveNavLink :href="route('dashboard')" :active="route().current('dashboard')">
                             Dashboard
-                        </ResponsiveNavLink>
-                        <ResponsiveNavLink :href="route('posts.index')" :active="route().current('posts.index')">
-                            Posts
                         </ResponsiveNavLink>
 
                         <ResponsiveNavLink :href="route('/Aboutus')" :active="route().current('/Aboutus')">
